@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 
 import Mock from '@/pages/mock/index'
+import Element from '@/pages/element/index'
 
 Vue.use(Router)
 
@@ -17,6 +18,11 @@ export default new Router({
       path: '/mock',
       name: 'Mock',
       component: Mock
+    },
+    {
+      path: '/ele',
+      name: 'Element',
+      component: Element
     }
   ]
 })
